@@ -1,0 +1,64 @@
+Plane Parking Packing Problem ?? Tuggy, MotherTugger, 
+
+== PHASES ==
+
+- Phase 1: Working gameplay
+- Phase 2: Assets
+- Phase 3: Sounds
+- Phase 4: Visual feedback: UI / interfaces, main menu
+- Phase 5: World, testing and tweaking values
+
+
+Day #1: - The first day
+// Started making the game!
+
+Day #2: - The silly problems day
+//- Stop airplane when disconnected, airplane is rolling now
+	= Problem due to low mass of the wheel
+//- Collision between tug and the wheel (tug passes through the wheel)
+//- Throttle and brake issue reversing
+//- Try with longer towbar, to prevent jackknifing (thanks liqwidice, for the term!)
+	= Actually, longer towbar makes it easier to control! Thanks Ferran!
+
+Day #3:
+//- Airplane production, plane slowly moves in view until ready
+//- Calculating damage when colliding
+	//- Try relative velocity vs impulse
+	= Use impulse, seems to work
+//- Camera follow the tug
+	= Camera follows smoothly
+	= with added velocity offset
+	= clamped so the tug doesn't exit the screen
+# Delayed: Make a github repo
+//- Fix end of production physics issue
+	//= Hacked it!
+	= Solved it!
+//- Think about objects to put in
+
+Day #4:
+- Make a github repo
+- Add green light when plane production is over
+- Brake lights, reverse lights of the tug
+- Start making assets!
+- Wheels turning
+- Add variety to airplanes in terms of colors.. 
+	- Textures? (requires plane UV unwrap)
+
+Day #5:
+- Limit the speed of the tug
+- Changing construction to have a delay
+
+== Assets ==
+	- Weird slanted walls
+	- Lamp posts
+	- Random traffic signs
+	- Cargo boxes
+	- Cargo containers
+	- Various vehicles
+	- Air stairs
+	- Cars
+	- Vans
+	- Red-white antennas
+	- Trash cans
+	- Exploding gas bottles
+	- Wheel chocks
