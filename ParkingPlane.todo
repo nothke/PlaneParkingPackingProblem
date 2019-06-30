@@ -36,22 +36,24 @@ Day #3:
 //- Think about objects to put in
 
 Day #4:
-- Make a github repo
+//- Make a github repo
 - Add green light when plane production is over
-- Brake lights, reverse lights of the tug
-- Start making assets!
-- Wheels turning
-- Add variety to airplanes in terms of colors.. 
+//- Brake lights, reverse lights of the tug
+//- Start making assets!
+//- Wheels turning
+# Add variety to airplanes in terms of colors.. 
 	- Textures? (requires plane UV unwrap)
 
 Day #5:
 - Limit the speed of the tug
 - Changing construction to have a delay
+- Implement skidmarks
 
 == Assets ==
-	- Tug
-	- Towbar
-	- Character ??
+	//= Tug
+	//- Towbar
+	//- Character
+
 	- Weird slanted walls
 	- Lamp posts
 	- Random traffic signs

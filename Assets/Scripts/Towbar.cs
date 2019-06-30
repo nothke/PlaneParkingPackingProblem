@@ -87,6 +87,8 @@ public class Towbar : MonoBehaviour
 
     void Disconnect()
     {
+        if (!connected) return;
+
         connected.airplane.EngageBrakes(true);
 
         if (joint)

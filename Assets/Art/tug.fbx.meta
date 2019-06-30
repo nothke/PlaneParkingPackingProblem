@@ -14,6 +14,10 @@ ModelImporter:
     100016: wheel_fr
     100018: wheel_rl
     100020: wheel_rr
+    100022: towbar_end
+    100024: towbar_middle
+    100026: dude_LEGS
+    100028: dude_TORSO
     400000: //RootNode
     400002: tug_body
     400004: tug_headlights
@@ -25,6 +29,10 @@ ModelImporter:
     400016: wheel_fr
     400018: wheel_rl
     400020: wheel_rr
+    400022: towbar_end
+    400024: towbar_middle
+    400026: dude_LEGS
+    400028: dude_TORSO
     2100000: tire
     2100002: rim2
     2100004: rim
@@ -49,6 +57,10 @@ ModelImporter:
     2300014: wheel_fr
     2300016: wheel_rl
     2300018: wheel_rr
+    2300020: towbar_end
+    2300022: towbar_middle
+    2300024: dude_LEGS
+    2300026: dude_TORSO
     3300000: tug_body
     3300002: tug_headlights
     3300004: tug_latch_front
@@ -59,6 +71,10 @@ ModelImporter:
     3300014: wheel_fr
     3300016: wheel_rl
     3300018: wheel_rr
+    3300020: towbar_end
+    3300022: towbar_middle
+    3300024: dude_LEGS
+    3300026: dude_TORSO
     4300000: wheel_fr
     4300002: wheel_rr
     4300004: tug_latch_front.001
@@ -66,12 +82,126 @@ ModelImporter:
     4300008: tug_rearlights
     4300010: tug_headlights
     4300012: tug_body
-  externalObjects: {}
+    4300014: towbar_end
+    4300016: towbar_middle
+    4300018: dude_TORSO
+    4300020: dude_LEGS
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: a2db071d4b3d57a4c9456f1237637881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dude_cap
+    second: {fileID: 2100000, guid: 94129ea718b3661418db0226c4ec5a54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dude_headphone_frame
+    second: {fileID: 2100000, guid: 509be4d4c6015d542b92f9cb6a3d1825, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dude_hiviz_green
+    second: {fileID: 2100000, guid: 0bfbcdb189a0d0548b7ba4a405011832, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dude_hiviz_stripe
+    second: {fileID: 2100000, guid: 7bfe354a6012e744ab5caad0b384255d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dude_shirt
+    second: {fileID: 2100000, guid: 60863b7e37c649c4eb7f2059c69cb7f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dude_skin
+    second: {fileID: 2100000, guid: 2d830c593b9449d40bb0b236752457d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headlights
+    second: {fileID: 2100000, guid: a55eef1dfebe8074f838ac6a4a2caa43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headlights_case
+    second: {fileID: 2100000, guid: d719b452cdb82f34e84bbc394463e462, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hook
+    second: {fileID: 2100000, guid: 9150a27602560bd43bb95c7107745ad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rearlights
+    second: {fileID: 2100000, guid: 9ac58c85eb8980246b6a0c8df6ee945d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rim
+    second: {fileID: 2100000, guid: f63744a957ed9f04587f9227683cd804, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rim2
+    second: {fileID: 2100000, guid: 5116c73e88984434b9fa3dfd75b3a585, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seat
+    second: {fileID: 2100000, guid: ea6a65325a6cc584da722878bdd126b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tire
+    second: {fileID: 2100000, guid: 3272bfc7f694fd243bdd67a62a8d2730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: towbar_body
+    second: {fileID: 2100000, guid: e84508e27c9566f45be97d611a432888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tug_body
+    second: {fileID: 2100000, guid: e0e78bb823350e341bc1a532a7b65639, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tug_fender
+    second: {fileID: 2100000, guid: 5012221a200e1854fbfd3d6733608f83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: turnsignal
+    second: {fileID: 2100000, guid: f777d3fe1b11f3d4aae6a2b6269d87f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vent
+    second: {fileID: 2100000, guid: 9cd628d55ce2a934bacfae775834d93b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: warning_black
+    second: {fileID: 2100000, guid: 8243a64f82c3ff54ea8efe87a543a81c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: warning_bumper
+    second: {fileID: 2100000, guid: b5438690381eaaa4fa1187e055e0f3ee, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
