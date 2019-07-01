@@ -58,6 +58,12 @@ Other day..
 	//- Towbar
 	//- Character
 
+	- Airplane
+		- UV unwrap the airplane fuselage and vertical stab
+		- separate wings
+		- add materials to wheels
+		- smooth surfaces
+
 	- Weird slanted walls
 	- Lamp posts
 	- Random traffic signs
@@ -71,3 +77,8 @@ Other day..
 	- Trash cans
 	- Exploding gas bottles
 	- Wheel chocks
+
+	- Ground
+		- Taxiways
+		- parking spots
+		- different colored tarmac patches
