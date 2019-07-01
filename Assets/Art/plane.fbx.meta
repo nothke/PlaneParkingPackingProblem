@@ -49,6 +49,8 @@ ModelImporter:
     100086: Wing_Flaps
     100088: Wing_Flaps_Inboard
     100090: Wing_Spoiler
+    100092: Wing_L
+    100094: Wing_R
     400000: AILERON_L
     400002: AILERON_R
     400004: BladePivot
@@ -95,9 +97,15 @@ ModelImporter:
     400086: Wing_Flaps
     400088: Wing_Flaps_Inboard
     400090: Wing_Spoiler
+    400092: Wing_L
+    400094: Wing_R
     2100000: No Name
     2100002: Cabin_Shell
     2100004: cabin_panels
+    2100006: wheel_tire
+    2100008: wheel_rim
+    2100010: engine_tip
+    2100012: engine_body
     2300000: Cabin
     2300002: Cylinder.000
     2300004: Cylinder.001
@@ -131,6 +139,8 @@ ModelImporter:
     2300060: Wing_Flaps
     2300062: Wing_Flaps_Inboard
     2300064: Wing_Spoiler
+    2300066: Wing_L
+    2300068: Wing_R
     3300000: Cabin
     3300002: Cylinder.000
     3300004: Cylinder.001
@@ -164,6 +174,8 @@ ModelImporter:
     3300060: Wing_Flaps
     3300062: Wing_Flaps_Inboard
     3300064: Wing_Spoiler
+    3300066: Wing_L
+    3300068: Wing_R
     4300000: Gear_Shock_Strut.002
     4300002: Gear_Shock_Strut.003
     4300004: Torus.002
@@ -197,6 +209,8 @@ ModelImporter:
     4300060: Cabin
     4300062: Window
     4300064: Panel
+    4300066: Wing_L
+    4300068: Wing_R
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -248,7 +262,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
