@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1718572087395100259
+--- !u!1 &4368159037922360818
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1718572087394810435}
-  - component: {fileID: 1718572087396137571}
-  - component: {fileID: 1718572087397103779}
+  - component: {fileID: 4368159037922058706}
+  - component: {fileID: 4368159037925482994}
+  - component: {fileID: 4368159037924352818}
+  - component: {fileID: 6125424296040233912}
+  - component: {fileID: 3684695514815902343}
   m_Layer: 0
   m_Name: prop_cart
   m_TagString: Untagged
@@ -18,35 +20,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1718572087394810435
+--- !u!4 &4368159037922058706
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718572087395100259}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 15.27, y: -0, z: -17.79}
+  m_GameObject: {fileID: 4368159037922360818}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0.00000028088027}
+  m_LocalPosition: {x: 47.047287, y: 0, z: 10.354538}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1718572087396137571
+  m_LocalEulerAnglesHint: {x: 0, y: 179.99998, z: 0}
+--- !u!33 &4368159037925482994
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718572087395100259}
+  m_GameObject: {fileID: 4368159037922360818}
   m_Mesh: {fileID: 4300000, guid: c5b1dad678d5e0a4d82d8d91455e18d4, type: 3}
---- !u!23 &1718572087397103779
+--- !u!23 &4368159037924352818
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718572087395100259}
+  m_GameObject: {fileID: 4368159037922360818}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -57,12 +59,12 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c5b1dad678d5e0a4d82d8d91455e18d4, type: 3}
-  - {fileID: 2100002, guid: c5b1dad678d5e0a4d82d8d91455e18d4, type: 3}
-  - {fileID: 2100004, guid: c5b1dad678d5e0a4d82d8d91455e18d4, type: 3}
-  - {fileID: 2100006, guid: c5b1dad678d5e0a4d82d8d91455e18d4, type: 3}
-  - {fileID: 2100008, guid: c5b1dad678d5e0a4d82d8d91455e18d4, type: 3}
-  - {fileID: 2100010, guid: c5b1dad678d5e0a4d82d8d91455e18d4, type: 3}
+  - {fileID: 2100000, guid: a261c53e88cbd8143bfb49eb97ff985f, type: 2}
+  - {fileID: 2100000, guid: 096146fa2ed6d2143a016fdd6f1848f2, type: 2}
+  - {fileID: 2100000, guid: 251eaacc69489f547beede0dbd0f3c55, type: 2}
+  - {fileID: 2100000, guid: 41259950c52dff44baafff0cce83163d, type: 2}
+  - {fileID: 2100000, guid: bf04e1ebec5e6b64e8545c8d72b29197, type: 2}
+  - {fileID: 2100000, guid: 307e9bffbc3dd2148833c0c8b1214f64, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,3 +84,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!54 &6125424296040233912
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368159037922360818}
+  serializedVersion: 2
+  m_Mass: 200
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3684695514815902343
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368159037922360818}
+  m_Material: {fileID: 13400000, guid: 143066a433ff66849bec05fdf55bf65f, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4414852, y: 2.6448743, z: 2.6774626}
+  m_Center: {x: 4.9760005e-15, y: 1.3021506, z: 0}

@@ -95,7 +95,132 @@ ModelImporter:
     4300020: prop_perimiter_fence
     4300022: prop_blast_fence_angle
     4300024: prop_blast_fence
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cart
+    second: {fileID: 2100000, guid: a261c53e88cbd8143bfb49eb97ff985f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cart_2
+    second: {fileID: 2100000, guid: 307e9bffbc3dd2148833c0c8b1214f64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cart_rails
+    second: {fileID: 2100000, guid: bf04e1ebec5e6b64e8545c8d72b29197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cart_rim
+    second: {fileID: 2100000, guid: 251eaacc69489f547beede0dbd0f3c55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cart_seams
+    second: {fileID: 2100000, guid: 41259950c52dff44baafff0cce83163d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cart_tire
+    second: {fileID: 2100000, guid: 096146fa2ed6d2143a016fdd6f1848f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fence_grid
+    second: {fileID: 2100000, guid: b59813522d0e3bd4a9c089844935ad81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fence_supports
+    second: {fileID: 2100000, guid: a68e890795679484ca6d8a25f303f670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_blast_fence
+    second: {fileID: 2100000, guid: badaf10e48507b34794ee3911f823abf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_blast_fence_foundation
+    second: {fileID: 2100000, guid: ce344a4a3e442d34ea04cdb56d59d835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_blast_fence_supports
+    second: {fileID: 2100000, guid: 2f0b1767610c8ed4988ef0d1f677d188, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_pole
+    second: {fileID: 2100000, guid: fc0c495a84b613543b61781304c5c208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_pole_light
+    second: {fileID: 2100000, guid: 3952ec740f9eae849aeee98db5eae605, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_pole_red
+    second: {fileID: 2100000, guid: 5efa705c4ca838d4599d5e538e030ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_pole_white
+    second: {fileID: 2100000, guid: be84003b907a55342b8a45f5829eee22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_powerbox_door
+    second: {fileID: 2100000, guid: 4bebd808ec636e14db24a2c5981d923c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_powerbox_sides
+    second: {fileID: 2100000, guid: 17e1b27452db03e4d833208d6d162b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_powerbox_walls
+    second: {fileID: 2100000, guid: d4d8766ee37d8c043b67edc469ff85c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_reflector_case
+    second: {fileID: 2100000, guid: 8c41138f9338dc6438b85ad48e25ff12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_reflector_light
+    second: {fileID: 2100000, guid: 7c78636e8a7f60e4b8b58720242391ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taxiine_border
+    second: {fileID: 2100000, guid: f3f1b7dea39e08742bea0505e4338ffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: taxiline
+    second: {fileID: 2100000, guid: 2dfd10dc42a38ff4c9940e761f08468c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trashcan_body
+    second: {fileID: 2100000, guid: 62ec40ae2c59f3c43ab2dbcb3f858984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trashcan_inside
+    second: {fileID: 2100000, guid: acf6c55d8f9e1af44a171d5b2d804acd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trashcan_top
+    second: {fileID: 2100000, guid: c3daa2c237e4f594c8b1c0ecd243246f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
