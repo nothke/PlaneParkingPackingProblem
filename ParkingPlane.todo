@@ -59,13 +59,14 @@ Other day..
 	//- Character
 
 	- Airplane
-		- UV unwrap the airplane fuselage and vertical stab
-		- separate wings
-		- add materials to wheels
+		//- UV unwrap the airplane fuselage and vertical stab
+		//- separate wings
+		//- add materials to wheels
 		- smooth surfaces
 
-	- Weird slanted walls
-	- Lamp posts
+	//- Weird slanted walls (blast fences)
+	//- Weird big fence
+	//- Lamp posts
 	- Random traffic signs
 	- Cargo boxes
 	- Cargo containers
@@ -73,12 +74,14 @@ Other day..
 	- Air stairs
 	- Cars
 	- Vans
-	- Red-white antennas
-	- Trash cans
+	- Power boxes
+	//- Red-white antennas
+	//- Trash cans
 	- Exploding gas bottles
-	- Wheel chocks
+	= Wheel chocks
+	- Little houses
 
 	- Ground
-		- Taxiways
+		//- Taxiways
 		- parking spots
 		- different colored tarmac patches

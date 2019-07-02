@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: c5b1dad678d5e0a4d82d8d91455e18d4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: prop_blast_fence
+    100002: prop_blast_fence_angle
+    100004: prop_cart
+    100006: prop_lamp
+    100008: prop_perimiter_fence
+    100010: prop_pole_reflector
+    100012: prop_powerbox
+    100014: prop_reflector_light
+    100016: prop_trashcan
+    100018: //RootNode
+    100020: taxiline
+    100022: taxiline_end
+    100024: taxiline_r30
+    100026: taxiline_r30_delta
+    400000: prop_blast_fence
+    400002: prop_blast_fence_angle
+    400004: prop_cart
+    400006: prop_lamp
+    400008: prop_perimiter_fence
+    400010: prop_pole_reflector
+    400012: prop_powerbox
+    400014: prop_reflector_light
+    400016: prop_trashcan
+    400018: //RootNode
+    400020: taxiline
+    400022: taxiline_end
+    400024: taxiline_r30
+    400026: taxiline_r30_delta
+    2100000: cart
+    2100002: cart_tire
+    2100004: cart_rim
+    2100006: cart_seams
+    2100008: cart_rails
+    2100010: cart_2
+    2100012: taxiine_border
+    2100014: taxiline
+    2100016: prop_reflector_case
+    2100018: prop_reflector_light
+    2100020: prop_pole_white
+    2100022: prop_blast_fence_foundation
+    2100024: prop_pole_red
+    2100026: trashcan_top
+    2100028: trashcan_inside
+    2100030: trashcan_body
+    2100032: prop_powerbox_walls
+    2100034: prop_powerbox_sides
+    2100036: prop_powerbox_door
+    2100038: prop_pole
+    2100040: prop_pole_light
+    2100042: fence_supports
+    2100044: fence_grid
+    2100046: prop_blast_fence
+    2100048: prop_blast_fence_supports
+    2300000: prop_blast_fence
+    2300002: prop_blast_fence_angle
+    2300004: prop_cart
+    2300006: prop_lamp
+    2300008: prop_perimiter_fence
+    2300010: prop_pole_reflector
+    2300012: prop_powerbox
+    2300014: prop_reflector_light
+    2300016: prop_trashcan
+    2300018: taxiline
+    2300020: taxiline_end
+    2300022: taxiline_r30
+    2300024: taxiline_r30_delta
+    3300000: prop_blast_fence
+    3300002: prop_blast_fence_angle
+    3300004: prop_cart
+    3300006: prop_lamp
+    3300008: prop_perimiter_fence
+    3300010: prop_pole_reflector
+    3300012: prop_powerbox
+    3300014: prop_reflector_light
+    3300016: prop_trashcan
+    3300018: taxiline
+    3300020: taxiline_end
+    3300022: taxiline_r30
+    3300024: taxiline_r30_delta
+    4300000: prop_cart
+    4300002: taxiline_r30_delta
+    4300004: taxiline_end
+    4300006: taxiline
+    4300008: taxiline_r30
+    4300010: prop_reflector_light
+    4300012: prop_pole_reflector
+    4300014: prop_trashcan
+    4300016: prop_powerbox
+    4300018: prop_lamp
+    4300020: prop_perimiter_fence
+    4300022: prop_blast_fence_angle
+    4300024: prop_blast_fence
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
