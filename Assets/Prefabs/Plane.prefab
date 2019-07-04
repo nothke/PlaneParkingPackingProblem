@@ -365,6 +365,7 @@ GameObject:
   - component: {fileID: 244807463849289219}
   - component: {fileID: 3760562566021433964}
   - component: {fileID: 8017975}
+  - component: {fileID: 856454024}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -479,6 +480,45 @@ MonoBehaviour:
   wheel: {fileID: 587001197}
   motorTorque: 0
   brakeTorque: 0
+--- !u!114 &856454024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244807463849289216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cacf9d27a8ebfbf438b592fe84f220dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: ebb362d4bb7602f458833abadb5ca54a, type: 3}
+  - {fileID: 2800000, guid: 6712bc68d4c22f048a8db221b2e53e5a, type: 3}
+  - {fileID: 2800000, guid: 2bb62d555eb9c8342930fa6ad4c59105, type: 3}
+  - {fileID: 2800000, guid: 8b7da2f20b72e1545a698f7a4ebb8cf3, type: 3}
+  - {fileID: 2800000, guid: 4ea759c65e511fb41bada95fe266cdc6, type: 3}
+  - {fileID: 2800000, guid: b7dea459338b88a49be6b0969dbd4efc, type: 3}
+  - {fileID: 2800000, guid: 057bf5f75f52915459f79e161fb5b044, type: 3}
+  - {fileID: 2800000, guid: 3cd12302adb506646b3a960e7eede5c3, type: 3}
+  - {fileID: 2800000, guid: 693b92cb10124cd4d9616b2cc860d1d6, type: 3}
+  - {fileID: 2800000, guid: 63b363585243182488f91253413a217d, type: 3}
+  - {fileID: 2800000, guid: 086306aed64f80642ac43dce82448786, type: 3}
+  - {fileID: 2800000, guid: 50ccc2a0b81c489498530f868345886b, type: 3}
+  - {fileID: 2800000, guid: 25772aef67fc704468e5f7dde6bcf7a9, type: 3}
+  - {fileID: 2800000, guid: 755d9975fe939cc4cbcf5632983c0a4f, type: 3}
+  - {fileID: 2800000, guid: ac84f8e6333a3fc47929dfa26335a8e4, type: 3}
+  - {fileID: 2800000, guid: 0ca3e8a6511b68040af260f48e662280, type: 3}
+  - {fileID: 2800000, guid: 1823d00411ad58040a8cf2eb6086f787, type: 3}
+  meshRenderers:
+  - {fileID: 2695563229002344255}
+  - {fileID: 2695563229002344393}
+  nacelleRenderer:
+  - {fileID: 2695563229002344225}
+  - {fileID: 2695563229002344239}
+  originalMaterial: {fileID: 2100000, guid: 757e52a53d570564cb960f9308247548, type: 2}
+  originalNacelleMaterial: {fileID: 2100000, guid: c06ae8e3e050b7644b0c9b2bf6f3365b,
+    type: 2}
 --- !u!1 &529672158977576247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1067,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c06ae8e3e050b7644b0c9b2bf6f3365b, type: 2}
+  - {fileID: 2100000, guid: 757e52a53d570564cb960f9308247548, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2319,7 +2359,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf167fcae02dfb64c888648ee0d41d7d, type: 2}
+  - {fileID: 2100000, guid: 757e52a53d570564cb960f9308247548, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

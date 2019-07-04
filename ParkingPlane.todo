@@ -3,7 +3,7 @@ Plane Parking Packing Problem ?? Tuggy, MotherTugger,
 == PHASES ==
 
 - Phase 1: Working gameplay
-- Phase 2: Assets
+- Phase 2: 3D Assets
 - Phase 3: Sounds
 - Phase 4: Visual feedback: UI / interfaces, main menu
 - Phase 5: World, testing and tweaking values
@@ -50,12 +50,16 @@ Day #5:
 - Fences
 - Taxilines
 
+Day #6
+- Randomized liveries
+
+Day #7
+- Changing production logic to add a delay
+- Implement skidmarks
+
 Other day..
 - Limit the speed of the tug
-- Changing construction logic to add a delay
-- Implement skidmarks
 - Moar assets!
-- Livery randomization
 - Reset feature - respawn when stuck
 
 == Assets ==
@@ -85,6 +89,7 @@ Other day..
 	- Exploding gas bottles
 	= Wheel chocks
 	- Little houses
+	- Production hangar
 
 	- Ground
 		//- Taxiways
